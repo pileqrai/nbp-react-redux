@@ -1,0 +1,29 @@
+@import "./../variables.scss";
+
+.CurrencyRate {
+  align-items: center;
+  display: flex;
+  margin: 0 -$spacing-2;
+
+  & > * {
+    margin: $spacing-2;
+  }
+
+  .symbol {
+    font-weight: bold;
+  }
+
+  .date {
+    color: darkgray;
+  }
+
+  .favourite {
+    flex-grow: 1;
+    text-align: right;
+
+    button {
+      background: none;
+      padding: $spacing-3 $spacing-2;
+    }
+  }
+}

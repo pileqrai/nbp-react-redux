@@ -1,0 +1,16 @@
+.CurrencyRate {
+  align-items: center;
+  display: flex;
+  margin: -10px; }
+  .CurrencyRate > * {
+    margin: 10px; }
+  .CurrencyRate .symbol {
+    font-weight: bold; }
+  .CurrencyRate .date {
+    color: darkgray; }
+  .CurrencyRate .favourite {
+    flex-grow: 1;
+    text-align: right; }
+    .CurrencyRate .favourite button {
+      background: none;
+      padding: 5px 10px; }

@@ -1,0 +1,18 @@
+.SearchField {
+  display: flex;
+  padding: 20px 0; }
+  .SearchField input, .SearchField button {
+    padding: 10px 20px;
+    font-size: 1.25em; }
+  .SearchField input {
+    border: 1px solid lightblue;
+    text-transform: uppercase;
+    width: 100%; }
+    .SearchField input:focus {
+      outline: none; }
+  .SearchField button {
+    background: steelblue;
+    border-left: none;
+    color: white; }
+    .SearchField button:disabled {
+      background: lightblue; }

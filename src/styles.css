@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+.App {
+  font-family: sans-serif; }
+  .App header {
+    color: #5c0105;
+    background: #ff6d5e;
+    padding: 60px;
+    text-align: center; }
+  .App .content-wrapper {
+    max-width: 50vw;
+    margin: 0 auto; }
+    .App .content-wrapper h3 {
+      text-align: center; }
+    .App .content-wrapper .remove-favourites {
+      background: red;
+      color: white;
+      cursor: pointer;
+      padding: 5px 10px; }
+  .App .status {
+    font-size: 1.5em;
+    text-align: center;
+    text-transform: uppercase; }
+    .App .status-info {
+      color: darkgray; }
+    .App .status-error {
+      color: red; }

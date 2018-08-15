@@ -1,0 +1,34 @@
+@import '../variables.scss';
+
+.Favourite {
+  $border-radius: 3px;
+
+  display: inline-block;
+  margin-right: $spacing-2;
+
+  button {
+    background: none;
+    cursor: pointer;
+    padding: $spacing-3 $spacing-2;
+
+    &:hover {
+      color: white;
+    }
+
+    &.search {
+      border-right: none;
+
+      &:hover {
+        background: steelblue;
+      }
+    }
+
+    &.remove {
+      font-weight: bold;
+
+      &:hover {
+        background: red;
+      }
+    }
+  }
+}

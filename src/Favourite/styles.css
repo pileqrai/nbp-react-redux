@@ -1,0 +1,17 @@
+.Favourite {
+  display: inline-block;
+  margin-right: 10px; }
+  .Favourite button {
+    background: none;
+    cursor: pointer;
+    padding: 5px 10px; }
+    .Favourite button:hover {
+      color: white; }
+    .Favourite button.search {
+      border-right: none; }
+      .Favourite button.search:hover {
+        background: steelblue; }
+    .Favourite button.remove {
+      font-weight: bold; }
+      .Favourite button.remove:hover {
+        background: red; }
