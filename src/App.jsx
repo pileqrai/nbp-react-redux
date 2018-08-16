@@ -9,7 +9,7 @@ import './styles.css';
 
 class App extends Component {
     render() {
-        const results = this.props.rates.reverse().map(([symbol, value], index) => (
+        const results = this.props.rates.map(([symbol, value], index) => (
             <CurrencyRate key={index}
                           symbol={symbol}
                           rate={value.mid}

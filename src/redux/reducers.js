@@ -17,7 +17,7 @@ export default function currenciesReducer(state = initialState, action) {
             if (rateIndex > -1) {
                 newState.rates.splice(rateIndex, 1);
             }
-            newState.rates.push([action.data.code, action.data.rates[0]]);
+            newState.rates.unshift([action.data.code, action.data.rates[0]]);
             localStorage.setItem('rates', JSON.stringify(newState.rates));
             return newState;
         case REMOVE_ALL_FAVOURITES:
